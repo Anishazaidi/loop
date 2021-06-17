@@ -1,0 +1,10 @@
+user=int(input("enter the num"))
+n1=0
+while user>0:
+   n=user%10
+   n1=n1*10+n
+   user=user//10
+   print(n1)
+
+   
+
